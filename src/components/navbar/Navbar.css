@@ -1,3 +1,9 @@
+body {
+  
+  background-color: white;
+  color: black;
+ 
+}
 .navbar {
   background: #ffffff;
   grid-area: nav;
@@ -24,6 +30,10 @@
   color: #a5aaad;
   font-size: 15px;
   font-weight: 700;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 .navbar__left .active_link {

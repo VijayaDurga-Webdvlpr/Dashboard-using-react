@@ -2,12 +2,18 @@
   "name": "react_admin_dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/VijayaDurga-Webdvlpr/Dashboard-using-React-Js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "bootstrap": "^4.6.0",
+    "d3-dsv": "^2.0.0",
+    "fusioncharts": "^3.17.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
+    "react-fusioncharts": "^3.1.2",
     "react-scripts": "4.0.0",
     "react-vis": "^1.11.7"
   },
@@ -15,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeply" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
   }
 }
