@@ -1,5 +1,5 @@
 # Dashboard-using-react
-Developed a basic data visualisation dashboard using a ReactJS
+Developed a basic data visualisation dashboard using ReactJS
 
 Dataset used is from a Praan device installed in the real world.
 Here’s the description of the fields
